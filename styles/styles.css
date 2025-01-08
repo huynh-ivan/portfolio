@@ -4,24 +4,55 @@ h1,
 h2,
 h3,
 h4 {
-  margin: 0;
-  padding: 0px;
   color: #191717;
   background-color: #fcfcfc;
-  font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
-  /* font-weight: 500; */
+  font-family: 'Spectral', Georgia, 'Times New Roman', Times, serif;
+  --weight400: 400;
+  --weight500: 500;
+  --weight600: 600;
+  --weight700: 700;
 }
 
-section {
-  display: flex;
-  flex-direction: column;
+body {
+  margin: 0;
+  padding: 0;
 }
 
-section div {
-  padding-bottom: 1rem;
+/* Text */
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0px;
+  padding: 0px;
 }
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 600;
+}
+
+p {
+  font-weight: var(--weight400);
+  font-size: 19px;
+}
+
+
 
 /* Navigation */
+header,
+footer {
+  padding: 12px 80px;
+}
+
+header {
+  width: 100%;
+  border-bottom: 1px solid #eee;
+}
+
 nav {
   display: flex;
   justify-content: flex-start;
@@ -45,4 +76,57 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
+}
+
+/* Semantic Layouts */
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+section div {
+  padding-bottom: 1rem;
+}
+
+/* Intro */
+.intro {
+  display: flex;
+  flex-direction: column;
+  padding-top: 24px;
+}
+
+.intro>* {
+  margin-bottom: 16px;
+
+}
+
+/* Content */
+.main-content {
+  display: flex;
+  flex-direction: column;
+  padding-left: 80px;
+  padding-right: 24px;
+  max-width: 680px;
+}
+
+.contentWrap>* {
+  margin-bottom: 1rem;
+}
+
+/* Case Studies */
+.caseStudies h2 {
+  margin: 12px 0;
+}
+
+.case-study-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.case-study-wrapper>* {
+  margin-bottom: 12px;
+}
+
+.case-study h3 {
+  padding-bottom: 8px;
 }
