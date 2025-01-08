@@ -4,49 +4,55 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/styles.css">
   <title>Ivan Huynh Portfolio</title>
 </head>
 
 <body>
-  <nav>
-    <ul>
-      <li><a href="./home.html">Home</a></li>
-      <li><a href="./projects.html">Projects</a></li>
-      <li><a href="./reflections.html">Reflections</a></li>
-      <li><a href="./contact.html">Contact</a></li>
-    </ul>
-  </nav>
   <header>
-    <h1>Ivan Huynh</h1>
-    <h3>Product designer and aspiring product manager</h3>
+    <nav class="primaryNav">
+      <ul>
+        <li><a href="./home.html">Home</a></li>
+        <li><a href="./projects.html">Projects</a></li>
+        <li><a href="./reflections.html">Reflections</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+    </nav>
   </header>
   <main>
-    <p>I am the “what matters?” guy to my “how might we?” peers. I create focus and clarity by
-      bounding open solution
-      spaces against validated constraints, helping teams deliver product experiences with the
-      capacity to evolve and grow.</p>
-
-    <section class="caseStudies">
-      <h2>Work</h2>
-      <div class="caseStudy">
-        <h4>Cockroach Labs - Folders</h4>
-        <h3>Viewing usage by teams</h3>
+    <div class="main-content">
+      <div class="intro">
+        <h1>Ivan Huynh</h1>
+        <h3>Product designer and builder*</h3>
+        <p>I am the “what matters?” guy to my “how might we?” peers. I create focus and clarity by
+          bounding open solution
+          spaces against validated constraints, helping teams deliver product experiences with the
+          capacity to evolve and grow.</p>
       </div>
-      <div class="caseStudy">
-        <h4>Cockroach Labs - RBAC</h4>
-        <h3>API-first cluster-based access controls</h3>
-      </div>
-      <div class="caseStudy">
-        <h4>Cockroach Labs</h4>
-        <h3>Making SSO self-serve</h3>
-        <p></p>
-      </div>
-      <div class="caseStudy">
-        <h4>Trustpage - Browser Extension</h4>
-        <h3>Automating answer security questionnaires</h3>
-      </div>
-    </section>
+      <section class="caseStudies">
+        <h2>Work</h2>
+        <div class="case-study-wrapper">
+          <div class="case-study">
+            <h4>Cockroach Labs</h4>
+            <h3>Team-based billing</h3>
+          </div>
+          <div class="case-study">
+            <h4>Cockroach Labs</h4>
+            <h3>Role-based access controls</h3>
+          </div>
+          <div class="case-study">
+            <h4>Cockroach Labs</h4>
+            <h3>Self-serve SSO</h3>
+            <p></p>
+          </div>
+          <div class="case-study">
+            <h4>Trustpage</h4>
+            <h3>Security questionnaire automation</h3>
+          </div>
+        </div>
+      </section>
   </main>
+  </div>
   <footer>
     <p>© Ivan Huynh. All rights reserved 2025</p>
   </footer>
