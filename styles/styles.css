@@ -68,7 +68,11 @@ nav ul {
 }
 
 nav ul>* {
-  padding: .25rem;
+  padding: .5rem;
+}
+
+nav ul :first-child {
+  padding-left: 0px;
 }
 
 nav ul li {
