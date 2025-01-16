@@ -43,6 +43,15 @@ p {
   font-size: 18px;
 }
 
+/* Heading */
+ul {
+  padding: 0px;
+}
+
+ul li {
+  list-style: none;
+}
+
 /* Layout */
 header,
 footer,
@@ -83,6 +92,10 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
+}
+
+section {
+  padding: 0px;
 }
 
 /* Intro */
@@ -156,4 +169,10 @@ footer {
     padding-left: 16px;
   }
 
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
 }
