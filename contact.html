@@ -4,39 +4,41 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/styles.css">
   <title>Contact Ivan</title>
 </head>
 
 <body>
-  <nav>
-    <ul>
-      <li><a href="./home.html">Home</a></li>
-      <li><a href="./projects.html">Projects</a></li>
-      <li><a href="./reflections.html">Reflections</a></li>
-      <li><a href="./contact.html">Contact</a></li>
-    </ul>
-  </nav>
   <header>
-    <h1>Want to get in touch?</h1>
-    <p></p>
+    <nav>
+      <ul>
+        <li><a href="./home.html">Home</a></li>
+        <li><a href="./projects.html">Projects</a></li>
+        <li><a href="./reflections.html">Reflections</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+    </nav>
   </header>
   <main>
-    <form action="#">
-      <label for="fullName">
-        Full name:
-        <input type="text" placeholder="Your name" id="fullName" required>
-      </label>
-
-      <label for="email">
-        Email:
-        <input type="text" placeholder="Your email" id="email" required>
-      </label>
-      <label for="message">
-        Message:
-        <textarea name="message" id="message"></textarea>
-      </label>
-      <input type="submit" value="Send message">
-    </form>
+    <div class="main-content">
+      <h1>Want to get in touch?</h1>
+      <p></p>
+      <form action="#">
+        <label for="fullName">
+          Full name:
+          <input type="text" placeholder="Your name" id="fullName" required>
+        </label>
+        <label for="email">
+          Email:
+          <input type="text" placeholder="Your email" id="email" required>
+        </label>
+        <label for="message">
+          Message:
+          <textarea name="message" id="message"></textarea>
+        </label>
+        <input type="submit" value="Send message">
+      </form>
+    </div>
   </main>
   <footer>
     <p>© Ivan Huynh. All rights reserved 2025</p>
